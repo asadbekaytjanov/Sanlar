@@ -4,21 +4,24 @@
           <meta charset="UTF-8">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Sanlar oyıni - By Asadbek Aytjanov</title>
+          <title>Sanlar oyıni - by Asadbek Aytjanov</title>
 <link rel="stylesheet" href="css/bootstrap.css">
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/style.css">
    <script src="js/app.js"></script>
 </head>
 <body>
-          <div class="container">
+          <div class="container" id="td">
                   <h1>Sanlar Oyını</h1>
                   <br>
                   <p>Men oylaǵan sandı tap!</p>
                 <p id="ozg"></p>
-                <button id="st" onclick="start(brain)">Basla!</button> 
+                <button id="st" onclick="let i = 0; start();">Basla!</button> 
                 <input type="number" id="ip"> 
-                <button id="check" onclick="check(a)">Tekser!</button>
+                <button id="check" onclick="let j = 1; start();">Tekser!</button>
+          </div>
+          <div class="container" id="th">
+             <p id="cr">Created by <a href="github.com/asadbekaytjanov" target="_blank">Asadbek Aytjanov</a></p>
           </div>
 </body>
 </html>

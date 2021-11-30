@@ -1,15 +1,18 @@
- function start(brain){
+ function start(brain, check){
+     if(document.getElementById("st").onclick===i){
           console.log("I'ts working!")
           document.getElementById("ozg").innerHTML="Oyın Baslandı, men oylaǵan sandı kiritiń!"
-          brain += Math.random()*50+1;
-          return brain;
-}
-function check(a){
-          
-    if(document.getElementById("ip")===a){
-              document.getElementById("ozg").innerHTML="Duris, men oylaǵan san "+a+" edi!";
+          brain += Math.random()*50+1; }
+          if(document.getElementById("check").onclick.j===1){
+                  if(document.getElementById("ip")===brain){
+              document.getElementById("ozg").innerHTML="Duris, men oylaǵan san "+brain+" edi!";
     }
-    else{ if(document.getElementById("ip")!==a)
-              document.getElementById("ozg").innerHTML="Qate men oylaǵan san "+a+ " edi, qaytadan urınıp kórıń";
+    else{ if(document.getElementById("ip")!==brain)
+              document.getElementById("ozg").innerHTML="Qate men oylaǵan san "+brain+ " edi, qaytadan urınıp kórıń";
     }
+
 }
+
+
+}
+ 
