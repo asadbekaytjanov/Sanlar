@@ -22,7 +22,7 @@ p{
 a{
           text-decoration: none, blanchedalmond;
 }
-body {
+html {
           background-image: url(../img/background.jfif);
           background-repeat: no-repeat;
           background-size: cover;
