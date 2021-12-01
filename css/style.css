@@ -1,23 +1,15 @@
 h1 {
-          background-color: black;
+  
           color: blanchedalmond;
           text-align: center;
 }
- #td{
-          background-color: black;
-          text-align: center;
-          margin-top: 100px;
-          max-height: 100%;
-          max-width: 80%;
-          min-height: 100%;
-          min-width: 80%;
-}
+
 p{
           color: blanchedalmond;
           text-align: center;
 }
 #th {
-          background-color: black;
+         
           max-height: 100%;
           max-width: 80%;
           min-height: 100%;
@@ -29,4 +21,18 @@ p{
 }
 a{
           text-decoration: none, blanchedalmond;
+}
+body {
+          background-image: url(../img/background.jfif);
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+#obshiy {
+          text-align: center;
+}
+#bc {
+          height: 100%;
+           width: 90%;
+        margin-top: 180px;
+          background-color: black;
 }
