@@ -8,15 +8,7 @@ p{
           color: blanchedalmond;
           text-align: center;
 }
-#th {
-         
-          max-height: 100%;
-          max-width: 80%;
-          min-height: 100%;
-          min-width: 80%;
-          
-}
-#cr {
+cr {
           margin-top: 80px;
 }
 a{
@@ -28,11 +20,14 @@ html {
           background-size: cover;
 }
 #obshiy {
-          text-align: center;
+  
+  display: space-between;
 }
 #bc {
-          height: 100%;
-           width: 90%;
+          
         margin-top: 180px;
           background-color: black;
+}
+button {
+  size: 30px;
 }
