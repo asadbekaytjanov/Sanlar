@@ -1,20 +1,21 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
   });
-  function Game() {
-    document.getElementById("ozg").innerHTML="Oyın Baslandı, men 1 den 50 ge shekem san oyladım";
-    var brain = 2; 
-return brain;
-}
-     function  checkGame(){
-     var brain = this.Game()
-    if(document.getElementById("ip").textContent===brain){
-        console.log(getElementById("ozg").innerHTML="Durıs, men oylaǵan san  "+brain+" edi !!!");
-    }else{
-        if(document.getElementById("ip").inputMode!==brain){
-          document.getElementById("ozg").innerHTML="Qate, men oylaǵan san "+brain+" edi. Qaytadan oynap kóriń";
-    }
-  
-    
- }
+ function startGame() {
+          var brain = Math.floor(Math.random() * 10)+1;
+    document.getElementById("demo").innerText="Oyın baslandı, men 1 den 10 ǵa shekem san oyladim siz onı tabıń"
+          return brain;
+          }
+function checkGame() {
+          var brain = this.startGame()
+          var x = document.getElementById("ip").value;
+          if(x==brain){
+                    document.getElementById("demo").innerText="Durıs !!! Men oylaǵan san "+brain+" edi";
+           alert("Qutlıqlayman! Siz jeńimpazsiz!")
+          }
+          else {
+                    if(x!==brain){
+                              document.getElementById("demo").innerText="Qate, men oylaǵan san "+brain+" edi, qaytadan oynap kóriń"
+                    }
+          }
 }
